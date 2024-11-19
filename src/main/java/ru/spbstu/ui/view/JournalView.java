@@ -8,7 +8,6 @@ import java.awt.*;
 public abstract class JournalView {
 
     private JPanel journalPanel;
-    private JList<ExpenseItem> ExpenseItemsList;
 
     protected JournalView() {
         setupUI();

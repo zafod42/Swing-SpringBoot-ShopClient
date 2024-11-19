@@ -8,7 +8,6 @@ import java.awt.*;
 public abstract class TablesView {
 
     private JPanel mainPanel;
-    private JList<ExpenseItem> ExpenseItemsList;
 
     protected TablesView() {
         setupUI();

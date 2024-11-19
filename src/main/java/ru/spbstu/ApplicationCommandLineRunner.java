@@ -3,7 +3,6 @@ package ru.spbstu;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
 import ru.spbstu.ui.controller.MainController;
 
 import java.awt.*;

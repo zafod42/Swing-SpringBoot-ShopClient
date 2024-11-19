@@ -1,11 +1,7 @@
 package ru.spbstu.ui.view;
 
-import lombok.Getter;
-import ru.spbstu.jpa.model.ExpenseItem;
-import ru.spbstu.ui.controller.MainController;
 
 import javax.swing.*;
-import java.awt.*;
 
 
 public abstract class MainView {

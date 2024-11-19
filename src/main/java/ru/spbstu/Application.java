@@ -4,7 +4,6 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
-import ru.spbstu.ui.controller.MainController;
 
 import javax.swing.*;
 
@@ -18,7 +17,7 @@ public class Application {
                  UnsupportedLookAndFeelException e) {
             throw new RuntimeException(e);
         }
-        ConfigurableApplicationContext ctx =  new SpringApplicationBuilder(Application.class)
+        new SpringApplicationBuilder(Application.class)
                 .headless(false)
                 .web(WebApplicationType.NONE)
                 .run(args);
